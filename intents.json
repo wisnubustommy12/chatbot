@@ -1,0 +1,92 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Apa kabar?",
+        "Apakah ada orang?",
+        "Hello",
+        "Selamat siang"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, terimakasih telah berkunjung",
+        "Hallo , ada yang bisa saya bantu?",
+        "Hallo, bagaimana saya bisa membantu?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Sampai jumpa lagi", "Selamat tinggal"],
+      "responses": [
+        "Sampai jumpa lagi, terimakasih sudah berkunjung",
+        "Semoga harimu menyenangkan",
+        "Sampai jumpa! Datanglah lagi lain waktu."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Terimakasih", "Sangat membantu", "Terima kasih banyak!"],
+      "responses": ["Saya senang bisa membantu!", "Kapanpun!", "Dengan senang hati"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Item apa yang Anda miliki?",
+        "Jenis barang apa yang ada disana?",
+        "Apa yang kamu jual?"
+      ],
+      "responses": [
+        "Kami menjual kopi dan teh",
+        "Kami punya kopi dan teh"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Apakah kamu mengambil kartu kredit?",
+        "Apakah Anda menerima Mastercard?",
+        "Bisakah saya membayar dengan Paypal?",
+        "Apakah Anda hanya uang tunai?"
+      ],
+      "responses": [
+        "Kami menerima VISA, Mastercard dan Paypal",
+        "Kami menerima sebagian besar kartu kredit utama, dan Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Berapa lama waktu pengiriman?",
+        "Kapan saya menerima pengiriman saya?"
+      ],
+      "responses": [
+        "Pengiriman membutuhkan waktu 2-4 hari"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Ceritakan lelucon!",
+        "Katakan padaku sesuatu yang lucu!",
+        "Apakah Anda tahu lelucon?"
+      ],
+      "responses": [
+        "Buah buah apa yang lucu?Buahahahahaahhaha.",
+        "Ikan apa yang matanya banyak sekali? Ikan teri 1 kilo"
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "Siapa kamu?",
+        "Kuliah dimana?"
+      ],
+      "responses": [
+        "Saya salah satu mahasiswa di universitas pamulang"
+      ]
+    }
+  ]
+}
